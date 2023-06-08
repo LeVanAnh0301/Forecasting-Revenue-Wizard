@@ -1,0 +1,32 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Price Prediction</title>
+</head>
+<body>
+    <h1>Stock Price Prediction</h1>
+    <form action="/predict" method="POST">
+        <input type="text" name="data" placeholder="Enter comma-separated values" required>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <p>Predicted price: {{ prediction }}</p>
+    {% endif %}
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Price Prediction</title>
+</head>
+<body>
+    <h1>Stock Price Prediction</h1>
+    <form action="/predict" method="POST">
+        <input type="text" name="data" placeholder="Enter comma-separated values" required>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <p>Predicted price: {{ prediction }}</p>
+    {% endif %}
+</body>
+</html>
